@@ -412,6 +412,7 @@ function toggleDIsplayOnAndOff(){
     startingScreen.classList.toggle("Display_off")
     startedGame.classList.toggle("Display_off")
 
+
 }
 
 function stopTimer(){
@@ -443,6 +444,7 @@ function resetVariables(){
     function addDisplayNone(x){
         gameOverTab[x].classList.add("Display_off")
         blackBacground.classList.add("Display_off")
+        menuContaner.classList.add("Display_off")
     }
     
 }
